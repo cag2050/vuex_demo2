@@ -2,7 +2,8 @@
     <div>
         count is {{ count }}
         <button @click='increment'>+1</button>
-        <button @click='decrement'>-1</button>
+        <button @click='decrement'>-1</button><br/>
+        {{ msg }}
     </div>
 </template>
 
@@ -10,7 +11,7 @@
 import { mapGetters, mapActions } from 'vuex'
 export default {
     computed: mapGetters ([
-        'count'
+        'count','msg'
     ]),
     methods: mapActions ([
         'increment','decrement'

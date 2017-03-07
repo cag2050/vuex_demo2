@@ -9,7 +9,8 @@ import * as mutations from './mutations'
 Vue.use(Vuex)
 
 const state = {
-    count: 0
+    count: 0,
+    msg: null
 }
 
 const store = new Vuex.Store({
