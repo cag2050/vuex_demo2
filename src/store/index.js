@@ -1,6 +1,4 @@
-/**
- * Created by yixia on 17/3/7.
- */
+// 定义state，并将state与store的各个属性关联起来
 import Vue from 'vue'
 import Vuex from 'vuex'
 
